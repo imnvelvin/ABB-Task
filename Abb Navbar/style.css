@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+}
+.navdiv a{ 
+ text-decoration: underline;
+    color: grey;
+    position: relative;
+    margin: 0 5px;
+}
+.navdiv :hover{
+ 
+
+}
+#btn5{
+    border-radius: 60px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue
+
+
+}
+#btn5:hover{
+    transition: 1s;
+    background-color: blue;;
+    color: white;
+}
+.ingils{
+    padding-left: 10px;
+}
+.ingils:hover{
+    background-color: white;
+}
+.rus{
+padding-left: 10px;
+}
+.rus:hover{
+    background-color: white;
+}
+.dil{
+    width: 10px;
+    left: 90%;
+    background-color: white;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px;
+    position: absolute;
+}
+.dil::before{
+    bottom: 100%;
+    border-color: transparent transparent white;
+    border-style: solid;
+    border-width: 0 7px 10px;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 80%;
+    position: absolute;
+    
+}
+.xett{
+    transition: .4s;
+    rotate: 180deg;
+}
+#xett{
+    cursor: pointer;
+    margin: 0 4px;
+}
+.navv{
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 20px;
+}
+#inputt{
+    z-index: 1;
+    width: 100%;
+    top: 7%;
+    font-size: 40px;
+    color: #B1B1B1;
+    font-weight: 400;
+    padding: 50px;
+    border: none;
+    outline: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+
+}
+#x{
+    position: absolute;
+    right: 30px;
+    font-size: 40px;
+    z-index: 1;
+    top: 13%;
+    cursor: pointer;
+    display: none;
+}
